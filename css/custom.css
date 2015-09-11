@@ -877,7 +877,8 @@ ul.social-links>li.pinterest-link:hover {
 	z-index:1;
 }
 .isotope,.isotope .isotope-item {
-	/* change duration value to whatever you like */ -webkit-transition-duration:0.8s;
+	/* change duration value to whatever you like */ 
+	-webkit-transition-duration:0.8s;
 	-moz-transition-duration:0.8s;
 	transition-duration:0.8s;
 }
@@ -1614,12 +1615,12 @@ a:hover,a:focus {
     width: 16px;
     height: 16px;
     float: left;
+    margin-top: 5px;
 }
 .collaborators .calendar .days{
     float: left;
     color: black;
     font-weight: bolder;
-    margin-top: -2px;
     margin-left: 6px;
 }
 .messages {
@@ -1661,47 +1662,4 @@ a:hover,a:focus {
 
 .activate {
 	background-color: #e45136 !important;
-}
-/* Tool Tip Styling */
-.customtip {
-	color: #000000; 
-	outline: none;
-	cursor: help; 
-	position: relative;
-}
-.customtip div {
-	margin-left: -999em;
-	position: absolute;
-}
-.customtip:hover div.long_view {
-	border-radius: 5px 5px;
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
-	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
-	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-	font-family: Calibri, Tahoma, Geneva, sans-serif;
-	position: absolute; 
-	left: 1.5em; 
-	top: 2.7em; 
-	z-index: 99;
-	margin-left: 0;
-	width: 170px;
-}
-.customtip:hover img.tooltipicon {
-	border: 0; 
-	margin: -10px 0 0 -40px;
-	float: left; 
-	position: absolute;
-	height: 36px;
-	width: 36px;
-}
-.custom { 
-	padding: 0.5em 0.5em 0.5em 2em;
-	text-align: left;
-}
-* html a:hover { background: transparent; }
-.info { 
-	background: #9FDAEE; 
-	border: 1px solid #2BB0D7;	
 }

@@ -65,12 +65,8 @@
 				<div class="project_image" >
 					<img ng-src="{{project.project_image}}" alt="">
 				</div>
-				<div id = "title_bar" class="project_title_one_line customtip" ng-class="{ project_title_two_lines : project.project_title.length > 34 }">
+				<div id = "title_bar" class="project_title_one_line" ng-class="{ project_title_two_lines : project.project_title.length > 34 }" title="{{project.project_title}}">
 					<span>{{ project.project_title | limitTo: 70 }}{{project.project_title.length > 70 ? '...' : ''}}</span>
-					<div class="custom info long_view">
-						<img class="tooltipicon" src="img/info.png" alt="Information" height="36" width="36" />
-						{{project.project_title}}
-					</div>
 				</div>
 				<div class="collaborators">
 					<div class="content">
