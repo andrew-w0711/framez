@@ -1,0 +1,213 @@
+[
+	{
+		"project_image" : "img/project_images/project-1.jpg",
+		"project_title" : "WIX Commercial Superbowl 2015",
+		"collaborators" : [],
+		"messages" : [
+			{
+				"avatar" : "img/image1.jpg",
+				"createdAt" : 5,
+				"comment" : "Nam felis lectus, ultricies sit amet tellus et, bibdum."
+			}
+		],
+		"cameras" : 7
+	},
+	{
+		"project_image" : "img/project_images/project-2.jpg",
+		"project_title" : "Project Name",
+		"collaborators" : [
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}, 
+			{
+				"avatar" : "img/image4.jpg"
+			}			
+		],
+		"messages" : [
+			{
+				"avatar" : "img/image1.jpg",
+				"createdAt" : 3,
+				"comment" : "We would do that!"
+			}
+		],
+		"cameras" : 7
+	},
+	{
+		"project_image" : "img/project_images/project-3.jpg",
+		"project_title" : "Lorem ipsum dolor sit consectetur amet adipiscing elit.sdfasgwefsdfa sdfasdasdfga sgasdgasdgasdg asgwegwgw",
+		"collaborators" : [
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			},
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}		
+		],
+		"messages" : [
+			{
+				"avatar" : "img/image2.jpg",
+				"createdAt" : 2,
+				"comment" : "We would do that!"
+			},
+			{
+				"avatar" : "img/image1.jpg",
+				"createdAt" : 7,
+				"comment" : "It works well with the..."
+			}
+		],
+		"cameras" : 7
+	},
+	{
+		"project_image" : "img/project_images/project-4.jpg",
+		"project_title" : "WIX Commercial Superbowl 2015",
+		"collaborators" : [
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}		
+		],
+		"messages" : [
+			{
+				"avatar" : "img/image2.jpg",
+				"createdAt" : 5,
+				"comment" : "Nam felis lectus, ultricies sit amet tellus et, bibdum.fasdf sadf sadf sdfsadfwef wef wef wefwef"
+			}
+		],
+		"cameras" : 7
+	},
+	{
+		"project_image" : "img/project_images/project-5.jpg",
+		"project_title" : "Project Name",
+		"collaborators" : [
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}, 
+			{
+				"avatar" : "img/image4.jpg"
+			}			
+		],
+		"messages" : [
+			{
+				"avatar" : "img/image2.jpg",
+				"createdAt" : 7,
+				"comment" : "It works well with the..."
+			}
+		],
+		"cameras" : 7
+	},
+	{
+		"project_image" : "img/project_images/project-6.jpg",
+		"project_title" : "Lorem ipsum dolor sit consectetur amet adipiscing elit.",
+		"collaborators" : [
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}, 
+			{
+				"avatar" : "img/image4.jpg"
+			},
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}, 
+			{
+				"avatar" : "img/image4.jpg"
+			}			
+		],
+		"messages" : [
+			{
+				"avatar" : "img/image2.jpg",
+				"createdAt" : 2,
+				"comment" : "We would do that!"
+			},
+			{
+				"avatar" : "img/image1.jpg",
+				"createdAt" : 7,
+				"comment" : "It works well with the..."
+			}
+		],
+		"cameras" : 7
+	},
+	{
+		"project_image" : "img/project_images/project-7.jpg",
+		"project_title" : "Project Name",
+		"collaborators" : [
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}, 
+			{
+				"avatar" : "img/image4.jpg"
+			},
+			{
+				"avatar" : "img/image1.jpg"
+			}, 
+			{
+				"avatar" : "img/image2.jpg"
+			}, 
+			{
+				"avatar" : "img/image3.jpg"
+			}, 
+			{
+				"avatar" : "img/image4.jpg"
+			}			
+		],
+		"messages" : [
+			{
+				"avatar" : "img/image2.jpg",
+				"createdAt" : 2,
+				"comment" : "We would do that!"
+			},
+			{
+				"avatar" : "img/image1.jpg",
+				"createdAt" : 7,
+				"comment" : "It works well with the..."
+			}
+		],
+		"cameras" : 7
+	}
+]
