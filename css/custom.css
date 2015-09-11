@@ -1688,21 +1688,6 @@ a:hover,a:focus {
 	margin-left: 0;
 	width: 170px;
 }
-.customtip:hover div.short_view {
-	border-radius: 5px 5px;
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
-	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
-	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-	font-family: Calibri, Tahoma, Geneva, sans-serif;
-	position: absolute; 
-	left: 1.5em; 
-	top: 2.7em; 
-	z-index: 99;
-	margin-left: 0;
-	width: 40px;
-}
 .customtip:hover img.tooltipicon {
 	border: 0; 
 	margin: -10px 0 0 -40px;

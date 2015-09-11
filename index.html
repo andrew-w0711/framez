@@ -75,19 +75,11 @@
 				<div class="collaborators">
 					<div class="content">
 						<span  ng-show="project.collaborators.length === 0">No Collaborator invited</span>
-						<div class="avatar customtip" ng-repeat="collaborator in project.collaborators | limitTo : 4" title="{{collaborator.name}}">
+						<div class="avatar" ng-repeat="collaborator in project.collaborators | limitTo : 4" title="{{collaborator.name}}" title="{{collaborator.name}}">
 							<img ng-src="{{collaborator.avatar}}" alt="">
-							<div class="custom info short_view">
-								<img class="tooltipicon" src="img/info.png" alt="Information"/>
-								{{collaborator.name}}
-							</div>
 						</div>
-						<div class="remain_person customtip" ng-show="project.collaborators.length > 4">
+						<div class="remain_person " ng-show="project.collaborators.length > 4" title="+{{framez.remain_person_counts[$index]}}">
 							<span class="counts">+{{framez.remain_person_counts[$index]}}</span>
-							<div class="custom info short_view">
-								<img class="tooltipicon" src="img/info.png" alt="Information"/>
-								+{{framez.remain_person_counts[$index]}}
-							</div>
 						</div>
 					</div>
 					<div class="calendar">
