@@ -17,16 +17,20 @@
 		"project_title" : "Project Name",
 		"collaborators" : [
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image4.jpg"
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
 			}			
 		],
 		"messages" : [
@@ -43,22 +47,31 @@
 		"project_title" : "Lorem ipsum dolor sit consectetur amet adipiscing elit.sdfasgwefsdfa sdfasdasdfga sgasdgasdgasdg asgwegwgw",
 		"collaborators" : [
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
-			},
-			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
+			},{
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
+			}, 
+			{
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}		
 		],
 		"messages" : [
@@ -76,18 +89,33 @@
 		"cameras" : 7
 	},
 	{
-		"project_image" : "img/project_images/project-4.jpg",
+		"project_image" : "img/project_images/project-3.jpg",
 		"project_title" : "WIX Commercial Superbowl 2015",
 		"collaborators" : [
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
-			}		
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
+			}, 
+			{
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
+			},
+			{
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
+			}, 
+			{
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
+			}
 		],
 		"messages" : [
 			{
@@ -95,25 +123,28 @@
 				"createdAt" : 5,
 				"comment" : "Nam felis lectus, ultricies sit amet tellus et, bibdum.fasdf sadf sadf sdfsadfwef wef wef wefwef"
 			}
-		],
-		"cameras" : 7
+		]
 	},
 	{
-		"project_image" : "img/project_images/project-5.jpg",
+		"project_image" : "img/project_images/project-2.jpg",
 		"project_title" : "Project Name",
 		"collaborators" : [
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image4.jpg"
-			}			
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
+			}
 		],
 		"messages" : [
 			{
@@ -125,32 +156,40 @@
 		"cameras" : 7
 	},
 	{
-		"project_image" : "img/project_images/project-6.jpg",
+		"project_image" : "img/project_images/project-1.jpg",
 		"project_title" : "Lorem ipsum dolor sit consectetur amet adipiscing elit.",
 		"collaborators" : [
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image4.jpg"
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
 			},
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image4.jpg"
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
 			}			
 		],
 		"messages" : [
@@ -168,33 +207,41 @@
 		"cameras" : 7
 	},
 	{
-		"project_image" : "img/project_images/project-7.jpg",
+		"project_image" : "img/project_images/project-2.jpg",
 		"project_title" : "Project Name",
 		"collaborators" : [
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image4.jpg"
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
 			},
 			{
-				"avatar" : "img/image1.jpg"
+				"avatar" : "img/image1.jpg",
+				"name" : "Lina"
 			}, 
 			{
-				"avatar" : "img/image2.jpg"
+				"avatar" : "img/image2.jpg",
+				"name" : "Jackson"
 			}, 
 			{
-				"avatar" : "img/image3.jpg"
+				"avatar" : "img/image3.jpg",
+				"name" : "William"
 			}, 
 			{
-				"avatar" : "img/image4.jpg"
-			}			
+				"avatar" : "img/image4.jpg",
+				"name" : "John"
+			}						
 		],
 		"messages" : [
 			{

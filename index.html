@@ -65,17 +65,29 @@
 				<div class="project_image" >
 					<img ng-src="{{project.project_image}}" alt="">
 				</div>
-				<div id = "title_bar" class="project_title_one_line" ng-class="{ project_title_two_lines : project.project_title.length > 34 }">
+				<div id = "title_bar" class="project_title_one_line customtip" ng-class="{ project_title_two_lines : project.project_title.length > 34 }">
 					<span>{{ project.project_title | limitTo: 70 }}{{project.project_title.length > 70 ? '...' : ''}}</span>
+					<div class="custom info long_view">
+						<img class="tooltipicon" src="img/info.png" alt="Information" height="36" width="36" />
+						{{project.project_title}}
+					</div>
 				</div>
 				<div class="collaborators">
 					<div class="content">
 						<span  ng-show="project.collaborators.length === 0">No Collaborator invited</span>
-						<div class="avatar" ng-repeat="collaborator in project.collaborators | limitTo : 4">
+						<div class="avatar customtip" ng-repeat="collaborator in project.collaborators | limitTo : 4" title="{{collaborator.name}}">
 							<img ng-src="{{collaborator.avatar}}" alt="">
+							<div class="custom info short_view">
+								<img class="tooltipicon" src="img/info.png" alt="Information"/>
+								{{collaborator.name}}
+							</div>
 						</div>
-						<div class="remain_person" ng-show="project.collaborators.length > 4">
+						<div class="remain_person customtip" ng-show="project.collaborators.length > 4">
 							<span class="counts">+{{framez.remain_person_counts[$index]}}</span>
+							<div class="custom info short_view">
+								<img class="tooltipicon" src="img/info.png" alt="Information"/>
+								+{{framez.remain_person_counts[$index]}}
+							</div>
 						</div>
 					</div>
 					<div class="calendar">
@@ -83,7 +95,7 @@
 						<span class="days">5 days</span>
 					</div>
 				</div>
-				<div class="messages" ng-repeat="message in project.messages">
+				<div class="messages" ng-repeat="message in project.messages | limitTo : 2" title="{{message.createdAt}}h ago {{message.comment}}">
 					<div class="avatar">
 						<img ng-src="{{message.avatar}}" alt="">
 					</div>

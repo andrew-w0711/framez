@@ -1653,7 +1653,6 @@ a:hover,a:focus {
 	margin-right: 8px;
 	float: left;
 	border: 1px solid #a2a2a2;
-	margin-top: 2px;
 	text-align: center;
 }
 .remain_person .counts{
@@ -1662,4 +1661,62 @@ a:hover,a:focus {
 
 .activate {
 	background-color: #e45136 !important;
+}
+/* Tool Tip Styling */
+.customtip {
+	color: #000000; 
+	outline: none;
+	cursor: help; 
+	position: relative;
+}
+.customtip div {
+	margin-left: -999em;
+	position: absolute;
+}
+.customtip:hover div.long_view {
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute; 
+	left: 1.5em; 
+	top: 2.7em; 
+	z-index: 99;
+	margin-left: 0;
+	width: 170px;
+}
+.customtip:hover div.short_view {
+	border-radius: 5px 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute; 
+	left: 1.5em; 
+	top: 2.7em; 
+	z-index: 99;
+	margin-left: 0;
+	width: 40px;
+}
+.customtip:hover img.tooltipicon {
+	border: 0; 
+	margin: -10px 0 0 -40px;
+	float: left; 
+	position: absolute;
+	height: 36px;
+	width: 36px;
+}
+.custom { 
+	padding: 0.5em 0.5em 0.5em 2em;
+	text-align: left;
+}
+* html a:hover { background: transparent; }
+.info { 
+	background: #9FDAEE; 
+	border: 1px solid #2BB0D7;	
 }
