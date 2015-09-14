@@ -2,6 +2,9 @@ var app = angular.module("framezapp",[]);
 
 app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 	var self = this;
+
+	self.test_value = 100;
+
 	self.remain_person_counts = [];
 
 	$scope.activeTitle = function(index){
@@ -579,7 +582,7 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"cameras" : 7
 		}
 	];
-	
+
 	self.projects = data;
 
 	for(var index = 0 ; index < data.length ; index ++){
@@ -598,4 +601,15 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			}
 		}
 	},500);
-}])
+}]);
+
+app.directive("scroll", function ($window) {
+    return function(scope, element, attrs) {
+        angular.element($window).bind("scroll", function() {
+        	// Function which is taken place when Scrolling //
+        	
+
+            scope.$apply();
+        });
+    };
+});

@@ -12,6 +12,9 @@ i {
 input::-moz-focus-inner {
 	border:0;
 }
+
+#jpreLoader {
+}
 a {
 	outline:0;
 }
@@ -1574,7 +1577,7 @@ a:hover,a:focus {
     text-align: left;
     padding-top: 3px;
     padding-left: 1%;
-    margin-left: 10px!important;
+    margin-left: 20px!important;
 }
 .project_title_two_lines {
     margin-top: 0!important;
@@ -1588,7 +1591,7 @@ a:hover,a:focus {
     text-align: left;
     padding-top: 0!important;
     padding-left: 1%;
-    margin-left: 10px!important;
+    margin-left: 20px!important;
 }
 .collaborators{
 	color: #929292;
