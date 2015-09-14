@@ -1,3 +1,3 @@
 # framez
 
-AngularJs + jQuer Preloading Plugin + Mansory
+AngularJs + jQuer Preloading Plugin + Mansory project 
