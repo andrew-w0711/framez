@@ -1614,6 +1614,7 @@ a:hover,a:focus {
 	float: left; 
 }
 .collaborators .calendar {
+	width: 26%;
 	float: left;
 	padding: 10px 0;
 	margin-top: 2px;
@@ -1621,11 +1622,11 @@ a:hover,a:focus {
 .collaborators .calendar img{
     width: 16px;
     height: 16px;
-    float: left;
+    float: right;
     margin-top: 5px;
 }
 .collaborators .calendar .days{
-    float: left;
+    float: right;
     color: black;
     font-weight: bolder;
     margin-left: 6px;
@@ -1668,4 +1669,11 @@ a:hover,a:focus {
 
 .activate {
 	background-color: #e45136 !important;
+}
+
+.new_project {
+	margin: 150px 0 !important;
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 25px;
 }

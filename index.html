@@ -50,7 +50,7 @@
 		<!-- New Project -->
 		<div class="boxportfolio4">
 			<div class="boxcontainer">
-				<img class ="new_project" src="img/project_images/new_project.jpg" alt="">
+				<span class="new_project">+ New Project</span>
 			</div>
 		</div>
 		<!-- Boxes -->
@@ -83,8 +83,8 @@
 						</div>
 					</div>
 					<div class="calendar">
-						<img src="img/calendar.png" alt="">
 						<span class="days">5 days</span>
+						<img src="img/calendar.png" alt="">						
 					</div>
 				</div>
 				<div class="messages" ng-repeat="message in project.messages | limitTo : 2" title="{{message.createdAt}}h ago {{message.comment}}">
