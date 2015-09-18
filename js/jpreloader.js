@@ -60,7 +60,7 @@
 		.attr('id', 'jpreOverlay')
 		.css({
 			position: "fixed",
-			top: 0,
+			top: 140,
 			left: 0,
 			width: '100%',
 			height: '100%',
@@ -71,7 +71,12 @@
 		jLoader = $('<div></div>')
 		.attr('id', 'jpreLoader')
 		.appendTo(jOverlay);
-	
+		
+		jCaption = $('<div></div>')
+		.attr('id', 'jpreCaption')
+		.appendTo(jLoader)
+		.html('Loading your projects... ');
+
 		jBar = $('<div></div>')
 		.attr('id', 'jpreBar')
 		.css({
@@ -88,7 +93,7 @@
 				height: '100%'
 			})
 			.appendTo(jLoader)
-			.html('Loading...');
+			// .html('Loading...');
 		}
 		if( !jpreOptions.autoclose ) {
 			jButton = $('<div></div>')
@@ -156,7 +161,7 @@
 		}, 500, 'linear');
 		
 		if(jpreOptions.showPercentage) {
-			$(jPer).text(per+"%");
+			// $(jPer).text(per+"%");
 		}
 		
 		//if all images loaded
@@ -165,7 +170,7 @@
 			setCookie();	//create cookie
 			
 			if(jpreOptions.showPercentage) {
-				$(jPer).text("100%");
+				// $(jPer).text("100%");
 			}
 			
 			//fire debug mode
@@ -193,6 +198,7 @@
 			$(jOverlay).remove();
 			onComplete();	//callback function
 		});
+		$('body').css('overflow' , 'auto');
 	}
 	
 	//debug mode

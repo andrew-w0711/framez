@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container" id="main_container">
 	
 	<!-- MASONRY ITEMS START
 	================================================== -->
@@ -92,7 +92,7 @@
 						<img ng-src="{{message.avatar}}" alt="">
 					</div>
 					<div class="comment">
-						<strong>{{message.createdAt}}h ago</strong> {{message.comment | limitTo : 65}}{{message.comment.length > 65 ? '...' : ''}}
+						<strong>{{message.createdAt}}h ago</strong> {{message.comment | limitTo : 60}}{{message.comment.length > 60 ? '...' : ''}}
 					</div>
 				</div>
 			</div>
@@ -103,31 +103,31 @@
 <!-- Footer
 ================================================== -->
 <div class="footer">
-<div class="container">
-	<!-- 2nd row -->
-	<div class="row-fluid">
-		<!-- left -->
-		<div class="span8 smallcontacttop">
-			<p class="smaller">
-				framez is private beta. For terms contact arik@framez.co
-			</p>
-		</div>
-		<!-- right -->
-		<div class="span4 smallspacetop">
-			<ul class="social-links pull-right">
-				<li class="facebook-link">
-					<a href="#" class="facebook has-tip" target="_blank" title="Join us on Facebook">Facebook</a>
-				</li>
-				<li class="twitter-link">
-					<a href="#" class="twitter has-tip" target="_blank" title="Follow Us on Twitter">Twitter</a>
-				</li>
-			</ul>
-			<div class="clearfix">
+	<div class="container">
+		<!-- 2nd row -->
+		<div class="row-fluid">
+			<!-- left -->
+			<div class="span8 smallcontacttop">
+				<p class="smaller">
+					framez is private beta. For terms contact arik@framez.co
+				</p>
 			</div>
+			<!-- right -->
+			<div class="span4 smallspacetop">
+				<ul class="social-links pull-right">
+					<li class="facebook-link">
+						<a href="#" class="facebook has-tip" target="_blank" title="Join us on Facebook">Facebook</a>
+					</li>
+					<li class="twitter-link">
+						<a href="#" class="twitter has-tip" target="_blank" title="Follow Us on Twitter">Twitter</a>
+					</li>
+				</ul>
+				<div class="clearfix">
+				</div>
+			</div>
+			<!-- end right -->
 		</div>
-		<!-- end right -->
 	</div>
-</div>
 </div>
 <!-- Le javascript
 ================================================== -->
@@ -142,7 +142,7 @@
 
 <script>
 	$(document).ready( function() {
-		$('body').jpreLoader({
+		$('#main_container').jpreLoader({
 			autoClose: true
 		});
 	});

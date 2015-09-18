@@ -2,7 +2,8 @@ body{
 	display:none;
 }
 #jpreOverlay {
-	background-color: #000000;
+	/*background-color: #000000;*/
+	background-color: white;
 }
 #jpreSlide{
 	font-size:22px;
@@ -12,20 +13,28 @@ body{
 	width:50%;
 	height:30%;
 }
+
+#jpreCaption {
+	margin-top: -47px;
+	padding-bottom: 20px;
+	color: grey;
+}
 #jpreLoader{
 	width:300px;
 	height:25px;
 	box-shadow:0 0 7px 3px #fff;
 	-moz-box-shadow:0 0 7px 3px #fff;
 	-webkit-box-shadow:0 0 7px 3px #fff;
-	border-radius:25px;
+	/*border-radius:25px;
 	-moz-border-radius:25px;
-	-webkit-border-radius:25px;
+	-webkit-border-radius:25px;*/
+	border: 1px solid #c5c4bf;
+	background-color: #eae8e1;
 }
 #jpreBar {
-	border-radius:25px;
+	/*border-radius:25px;
 	-moz-border-radius:25px;
-	-webkit-border-radius:25px;
+	-webkit-border-radius:25px;*/
 	
 	background-size:30px 30px;
 	-moz-background-size:30px 30px;
@@ -46,7 +55,7 @@ body{
       endColorstr='#33000000',
       GradientType=0 );
 
-	background-color:#E07300;
+	background-color:#e45136;
 	background-image: -moz-linear-gradient(-45deg, 
 		rgba(255,255,255,0.15) 0%, 
 		rgba(255,255,255,0.15) 25%, 

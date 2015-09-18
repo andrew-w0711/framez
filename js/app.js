@@ -23,9 +23,9 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"collaborators" : [],
 			"messages" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 5,
-					"comment" : "Nam felis lectus, ultricies sit amet tellus et, bibdum."
+					"comment" : "Nam felis lectus, ultricies sit am tellus et, bibdum."
 				}
 			],
 			"cameras" : 7
@@ -35,25 +35,25 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}			
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 3,
 					"comment" : "We would do that!"
 				}
@@ -62,44 +62,44 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 		},
 		{
 			"project_image" : "img/project_images/3.png",
-			"project_title" : "Lorem ipsum dolor sit consectetur amet adipiscing elit.sdfasgwefsdfa sdfasdasdfga sgasdgasdgasdg asgwegwgw",
+			"project_title" : "Lorem ipsum dolor sit consectetur am adipiscing elit.",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/e.png",
 					"name" : "William"
 				}		
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -111,35 +111,35 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "WIX Commercial Superbowl 2015",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/e.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 5,
-					"comment" : "Nam felis lectus, ultricies sit amet tellus et, bibdum.fasdf sadf sadf sdfsadfwef wef wef wefwef"
+					"comment" : "Nam felis lectus, ultricies sit am tellus et, bibdum.fasdf sadf sadf sdfsadfwef wef wef wefwef"
 				}
 			]
 		},
@@ -148,25 +148,25 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -175,49 +175,49 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 		},
 		{
 			"project_image" : "img/project_images/6.png",
-			"project_title" : "Lorem ipsum dolor sit consectetur amet adipiscing elit.",
+			"project_title" : "Lorem ipsum dolor sit consectetur am adipiscing elit.",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}			
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -229,46 +229,46 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -280,46 +280,46 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -331,46 +331,46 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -382,46 +382,46 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -429,50 +429,50 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"cameras" : 7
 		},
 		{
-			"project_image" : "img/project_images/b.png",
+			"project_image" : "img/project_images/b-original.png",
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -480,50 +480,50 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"cameras" : 7
 		},
 		{
-			"project_image" : "img/project_images/c.png",
+			"project_image" : "img/project_images/c-original.png",
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
@@ -535,46 +535,46 @@ app.controller('mainController', ['$http', '$scope' , function($http , $scope){
 			"project_title" : "Project Name",
 			"collaborators" : [
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"name" : "Lina"
 				}, 
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"name" : "Jackson"
 				}, 
 				{
-					"avatar" : "img/image3.jpg",
+					"avatar" : "img/project_images/c.png",
 					"name" : "William"
 				}, 
 				{
-					"avatar" : "img/image4.jpg",
+					"avatar" : "img/project_images/d.png",
 					"name" : "John"
 				}						
 			],
 			"messages" : [
 				{
-					"avatar" : "img/image2.jpg",
+					"avatar" : "img/project_images/b.png",
 					"createdAt" : 2,
 					"comment" : "We would do that!"
 				},
 				{
-					"avatar" : "img/image1.jpg",
+					"avatar" : "img/project_images/a.png",
 					"createdAt" : 7,
 					"comment" : "It works well with the..."
 				}
